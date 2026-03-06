@@ -1,9 +1,12 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
+import "./Temp.jsx"
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="root">
+    <Temp />
+    </div>
   )
 }
 
